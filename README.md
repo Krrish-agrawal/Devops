@@ -10,10 +10,6 @@
   <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="500" alt="DevOps Pipeline Animation" />
 </p>
 
-<!-- Animated DevOps Engineer (Subtle Engineering Motion) -->
-<p align="center">
-  <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" width="500" alt="DevOps Engineer at Work" />
-</p>
 
 <!-- Additional Animated Tagline Emphasizing Process and Innovation -->
 <p align="center">
@@ -27,7 +23,5 @@
   <p>
     <img src="https://media.giphy.com/media/xT39DJPekJOpIbYHvy/giphy.gif" width="450" alt="Infrastructure Automation Animation" />
   </p>
-  <p>
-    <img src="https://media.giphy.com/media/26AHG5KGFxSkUWw6I/giphy.gif" width="450" alt="Continuous Integration & Delivery Animation" />
-  </p>
+ 
 </div>
