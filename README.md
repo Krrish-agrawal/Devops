@@ -1,26 +1,21 @@
-<!-- Animated Header with Typing Effect -->
+<!-- Professional Animated Header -->
 <h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=F700FF&center=true&vCenter=true&width=700&lines=DevOps;Learning+DevOps" alt="Animated Header" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=007ACC&center=true&vCenter=true&width=600&lines=DevOps;Learning+DevOps" alt="DevOps | Learning DevOps" />
 </h1>
 
-<!-- Mega Animated Badge Row -->
+<!-- Professional Badge Row -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Level-LEGENDARY-ff69b4.svg?style=for-the-badge" alt="Level Legendary">
-  <img src="https://img.shields.io/badge/Flex-Mode-1abc9c.svg?style=for-the-badge" alt="Flex Mode">
-  <img src="https://img.shields.io/badge/Status-ENHANCED-yellow.svg?style=for-the-badge" alt="Enhanced Status">
+  <img src="https://img.shields.io/badge/Version-1.0.0-blueviolet?style=for-the-badge" alt="Version 1.0.0">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Status-Professional-blue?style=for-the-badge" alt="Status Professional">
 </p>
 
-<!-- Glorified animated GIF header for extra flex -->
+<!-- Subtle Professional Animation GIF -->
 <p align="center">
-  <img src="https://media.giphy.com/media/3o6ZtpxSZbQRRnwCKQ/giphy.gif" width="600" alt="Epic DevOps Animation" />
+  <img src="https://media.giphy.com/media/xT39DJPekJOpIbYHvy/giphy.gif" width="500" alt="Professional Animation"/>
 </p>
 
-<!-- Additional Animated Text for extra swagger -->
+<!-- Animated Tagline with a Professional Vibe -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Automate+Everything;Deploy+Faster;Own+The+Future" alt="Animated Tagline" />
-</p>
-
-<!-- A looping animation effect for a stunning final flex -->
-<p align="center">
-  <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="500" alt="Looping Animation Flex" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1500&color=008000&center=true&vCenter=true&width=600&lines=Empowering+IT+with+Automation;Streamlining+Operations;Building+Efficient+Systems" alt="Animated Tagline" />
 </p>
