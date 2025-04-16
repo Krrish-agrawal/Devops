@@ -2,9 +2,7 @@
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=007ACC&center=true&vCenter=true&width=700&lines=DevOps;Learning+DevOps;Elevating+Automation" alt="DevOps Animated Header" />
 </h1>
-
-https://gifer.com/en/758X
-<img src="https://gifer.com/en/758X" width="500"  />
+<div style="padding-top:156.383%;position:relative;"><iframe src="https://gifer.com/embed/758X" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div><p><a href="https://gifer.com">via GIFER</a></p>
 <!-- Animated DevOps Pipeline GIF -->
 <p align="center">
   <img src="https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif" width="500" alt="DevOps Pipeline Animation" />
