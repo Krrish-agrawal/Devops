@@ -1,11 +1,17 @@
-<!-- Animated DevOps Header -->
+
+
+
+
+<p align="center">
+
 <h1 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=007ACC&center=true&vCenter=true&width=700&lines=DevOps;Learning+DevOps;Elevating+Automation" alt="DevOps Animated Header" />
 </h1>
 
-<!-- Small GIF after Animated Text -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/Krrish-agrawal/Devops/master/assets/758X.gif" width="100" alt="Small Animated GIF" />
+</p>
+
 </p>
 
 
