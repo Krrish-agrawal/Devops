@@ -5,16 +5,9 @@
 
 <!-- Small GIF after Animated Text -->
 <p align="center">
-  <img src="[devops](assets/758X.gif)" width="100" alt="Small Animated GIF" />
+  <img src="assets/758X.gif" width="100" alt="Small Animated GIF" />
 </p>
 
-<!-- Walking Man GIF Embed -->
-<div align="center">
-  <div style="padding-top:156.383%;position:relative;max-width:500px;margin:0 auto;">
-    <iframe src="https://gifer.com/embed/758X" width="100%" height="100%" style="position:absolute;top:0;left:0;" frameBorder="0" allowFullScreen></iframe>
-  </div>
-  <p><a href="https://gifer.com">via GIFER</a></p>
-</div>
 
 <!-- Animated DevOps Pipeline GIF -->
 <p align="center">
