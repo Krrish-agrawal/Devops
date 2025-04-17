@@ -1,23 +1,27 @@
 
 
 
+<table align="center" width="100%" style="table-layout:fixed;">
+  <tr>
+    <!-- 80% column -->
+    <td width="80%" style="text-align:center;">
+      <img
+        src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=007ACC&center=true&vCenter=true&width=700&lines=DevOps;Learning+DevOps;Elevating+Automation"
+        alt="DevOps Animated Header"
+        style="max-width:100%; height:auto;"
+      />
+    </td>
+    <!-- 20% column -->
+    <td width="20%" style="text-align:center;">
+      <img
+        src="https://raw.githubusercontent.com/Krrish-agrawal/Devops/master/assets/758X.gif"
+        alt="Walking Man GIF"
+        style="max-width:100%; height:auto;"
+      />
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <!-- 1st image: Animated typing SVG -->
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=007ACC&center=true&vCenter=true&width=700&lines=DevOps;Learning+DevOps;Elevating+Automation"
-    alt="DevOps Animated Header"
-    style="display:inline-block; vertical-align:middle; margin-right:16px;"
-  />
-
-  <!-- 2nd image: Walking‑man GIF -->
-  <img
-    src="https://raw.githubusercontent.com/Krrish-agrawal/Devops/master/assets/758X.gif"
-    width="100"
-    alt="Small Animated GIF"
-    style="display:inline-block; vertical-align:middle; margin-left:16px;"
-  />
-</p>
 
 
 <!-- Animated DevOps Pipeline GIF -->
