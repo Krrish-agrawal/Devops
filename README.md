@@ -1,10 +1,10 @@
 
 
 
-<table align="center" width="100%" style="table-layout:fixed;">
+<table align="center" width="100%" style="table-layout:fixed; border-collapse:collapse;" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <!-- 80% column -->
-    <td width="80%" style="text-align:center;">
+    <td width="80%" style="text-align:center; border:none;">
       <img
         src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=50&pause=1000&color=007ACC&center=true&vCenter=true&width=700&lines=DevOps;Learning+DevOps;Elevating+Automation"
         alt="DevOps Animated Header"
@@ -12,7 +12,7 @@
       />
     </td>
     <!-- 20% column -->
-    <td width="20%" style="text-align:center;">
+    <td width="20%" style="text-align:center; border:none;">
       <img
         src="https://raw.githubusercontent.com/Krrish-agrawal/Devops/master/assets/758X.gif"
         alt="Walking Man GIF"
