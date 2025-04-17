@@ -5,7 +5,7 @@
 
 <!-- Small GIF after Animated Text -->
 <p align="center">
-  <img src="assets/758X.gif" width="100" alt="Small Animated GIF" />
+  <img src="https://raw.githubusercontent.com/Krrish-agrawal/Devops/master/assets/758X.gif" width="100" alt="Small Animated GIF" />
 </p>
 
 
