@@ -5,7 +5,7 @@
 
 <!-- Small GIF after Animated Text -->
 <p align="center">
-  <img src="https://media.giphy.com/media/your-gif-id/giphy.gif" width="100" alt="Small Animated GIF" />
+  <img src="[devops](assets/758X.gif)" width="100" alt="Small Animated GIF" />
 </p>
 
 <!-- Walking Man GIF Embed -->
