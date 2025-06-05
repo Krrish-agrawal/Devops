@@ -18,16 +18,23 @@ RUN cd client && npm install --legacy-peer-deps
 # ─── 6. Copy full client source (after install) ───────────────────────────────
 COPY client/ ./client/
 
-# ─── 7. Build the React client with legacy OpenSSL provider ────────────────────
+# ─── 7. Debug: list all files inside client/ to confirm everything is there ────
+RUN cd client && \
+    echo "=== Files in client/ ===" && \
+    ls -la && \
+    echo "=== Recursive listing of client/ ===" && \
+    ls -R .
+
+# ─── 8. Build the React client with legacy OpenSSL provider ────────────────────
 RUN cd client && NODE_OPTIONS=--openssl-legacy-provider npm run build
 
-# ─── 8. Copy any remaining root-level files (if needed) ────────────────────────
+# ─── 9. Copy any remaining root-level files (if needed) ────────────────────────
 COPY . .
 
-# ─── 9. Move built client into server/build so Express can serve it ────────────
+# ─── 10. Move built client into server/build so Express can serve it ────────────
 RUN rm -rf server/build && cp -r client/build server/build
 
-# ─── 10. Final runtime: switch to server folder, expose port, and start app ────
+# ─── 11. Final runtime: switch to server folder, expose port, and start app ────
 WORKDIR /usr/src/app/server
 EXPOSE 5000
 CMD ["node", "index.js"]
