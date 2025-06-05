@@ -8,20 +8,26 @@ WORKDIR /usr/src/app
 COPY server/package*.json ./server/
 RUN cd server && npm install
 
-# ─── 4. Copy & install client dependencies (with legacy peer-deps) ─────────────
+# ─── 4. Copy full server source (after install) ───────────────────────────────
+COPY server/ ./server/
+
+# ─── 5. Copy & install client dependencies (only package.json) ───────────────
 COPY client/package*.json ./client/
 RUN cd client && npm install --legacy-peer-deps
 
-# ─── 5. Build the React client with legacy OpenSSL provider ────────────────────
+# ─── 6. Copy full client source (after install) ───────────────────────────────
+COPY client/ ./client/
+
+# ─── 7. Build the React client with legacy OpenSSL provider ────────────────────
 RUN cd client && NODE_OPTIONS=--openssl-legacy-provider npm run build
 
-# ─── 6. Copy the rest of the project (all source files) ────────────────────────
+# ─── 8. Copy any remaining root-level files (if needed) ────────────────────────
 COPY . .
 
-# ─── 7. Move built client into server/build so Express can serve it ────────────
+# ─── 9. Move built client into server/build so Express can serve it ────────────
 RUN rm -rf server/build && cp -r client/build server/build
 
-# ─── 8. Switch to server folder, expose port, and start the app ───────────────
+# ─── 10. Final runtime: switch to server folder, expose port, and start app ────
 WORKDIR /usr/src/app/server
 EXPOSE 5000
 CMD ["node", "index.js"]
