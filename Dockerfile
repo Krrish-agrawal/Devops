@@ -1,34 +1,28 @@
-# Base image
+# ─── 1. Use Node 18 as base ────────────────────────────────────────────────────
 FROM node:18
 
-# Create app directory
+# ─── 2. Set working directory ─────────────────────────────────────────────────
 WORKDIR /usr/src/app
 
-# Copy server package.json and install server deps
+# ─── 3. Copy & install server dependencies ────────────────────────────────────
 COPY server/package*.json ./server/
 RUN cd server && npm install
 
-# Copy client package.json and install client deps
+# ─── 4. Copy & install client dependencies ────────────────────────────────────
 COPY client/package*.json ./client/
+RUN cd client && npm install
+
+# ─── 5. Build the React client with legacy OpenSSL provider flag ─────────────
+# This avoids the “ERR_OSSL_EVP_UNSUPPORTED” error on Node 18+
 RUN cd client && NODE_OPTIONS=--openssl-legacy-provider npm run build
 
-
-
-# Copy full project
+# ─── 6. Copy the rest of the project (source files) ───────────────────────────
 COPY . .
 
-# Build client (React)
-RUN cd client && npm run build
-
-# Replace client/src with built static files for production (optional)
-# Or serve with Express using static middleware
+# ─── 7. Move the built client into server’s “build” folder ─────────────────────
 RUN cp -r client/build server/build
 
-# Set workdir to server for starting the app
+# ─── 8. Switch to the server folder, expose port and start the app ────────────
 WORKDIR /usr/src/app/server
-
-# Expose server port
 EXPOSE 5000
-
-# Start server using Node (not nodemon in prod)
 CMD ["node", "index.js"]
