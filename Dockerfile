@@ -10,7 +10,8 @@ RUN cd server && npm install
 
 # Copy client package.json and install client deps
 COPY client/package*.json ./client/
-RUN cd client && npm install --legacy-peer-deps
+RUN cd client && NODE_OPTIONS=--openssl-legacy-provider npm run build
+
 
 
 # Copy full project
